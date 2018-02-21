@@ -8,7 +8,7 @@ for j = 1:801
     for i = 1:801
         x = -2 + (i-1)*.01/2;
         c = x + 1i*y;
-        [X,kount] = orbit8(0); 
+        [X,kount] = orbit6(0); 
         
         if X == 0
             M(j,i) = (0.95-kount/150)*500
