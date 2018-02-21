@@ -1,10 +1,8 @@
 function [x,kount] = orbit6(z)
 
-c=-1.25;
-phi=inline('z.^2 + c');
-fxpt1 =  (1 + sqrt(1-4*c))/2;
-fxpt2 =  (1 - sqrt(1-4*c))/2;
-
+phi=inline('z.^2 -1.25');
+fxpt1 =  -0.724745;
+fxpt2 =  1.72474;
 
 zk = z;
 iflag1 = 0;
