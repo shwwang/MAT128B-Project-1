@@ -10,7 +10,7 @@ for j = 1:141
         [X,kount] = orbit6(0); 
         
         if X == 0
-            M(j,i) = (0.95-kount/150)*500
+            M(j,i) = (0.95-kount/150)*500;
         end
         %x=0 means it diverges 
     end
