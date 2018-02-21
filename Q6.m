@@ -1,5 +1,5 @@
 colormap hot(500);
-
+%not yey finished
 M = zeros(801,801);
 
 for j = 1:801
