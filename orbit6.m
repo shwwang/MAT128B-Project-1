@@ -1,5 +1,5 @@
 function [x,kount] = orbit6(z,c)
-
+%not yet finished
 phi=inline('z.^2 + c');
 fxpt1 =  (1 + sqrt(1-4*c))/2;
 fxpt2 =  (1 - sqrt(1-4*c))/2;
