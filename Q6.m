@@ -1,5 +1,4 @@
-colormap hot(500);
-%not yey finished
+colormap hot(500); 
 M = zeros(141,361);
 
 for j = 1:141
