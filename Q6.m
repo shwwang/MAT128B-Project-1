@@ -1,12 +1,12 @@
 colormap hot(500);
 %not yey finished
-M = zeros(801,801);
+M = zeros(141,361);
 
-for j = 1:801
-    y = -2 + (j-1)*.01/2;
+for j = 1:141
+    y = -0.7 + (j-1)*.01/2;
     
-    for i = 1:801
-        x = -2 + (i-1)*.01/2;
+    for i = 1:361
+        x = -1.8 + (i-1)*.01/2;
         c = x + 1i*y;
         [X,kount] = orbit6(0); 
         
@@ -17,5 +17,5 @@ for j = 1:801
     end
 end
 
-image([-2, 2], [-2, 2], M);
+image([-0.7, 0.7], [-1.8, 1.8], M);
 axis xy
